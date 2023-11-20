@@ -8,12 +8,6 @@
 - Default preview<br>
 ![Default Preview](https://i.imgur.com/LtI4YmK.png)
 
-- Accent color based on avatar image<br>
-![Image changes accent color](https://i.imgur.com/J60vZei.png)
-
-- Custom background image<br>
-![Custom background image](https://i.imgur.com/amWRxZ3.png)
-
 ## Basic Usage
 ```js
 const drawLevelImage = require("image-generators-level");
@@ -43,4 +37,4 @@ const drawLevelImage = require("image-generators-level");
 })();
 ```
 
-Created by [Kıraç Armağan Önal](http://thearmagan.github.io)
+Created by SaidKholidi
