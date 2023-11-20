@@ -6,7 +6,7 @@
 - Automatically **blurs** the background image.
 - **Fast:** Small (350x132) and async.
 - Default preview<br>
-![Default Preview](https://i.imgur.com/LtI4YmK.png)
+![Default Preview](https://sainc.my.id/said/v2/up/LIpLGO.jpeg)
 
 
 Created by SaidKholidi
