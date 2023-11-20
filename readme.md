@@ -8,33 +8,5 @@
 - Default preview<br>
 ![Default Preview](https://i.imgur.com/LtI4YmK.png)
 
-## Basic Usage
-```js
-const drawLevelImage = require("image-generators-level");
-
-(async ()=>{
-
-  let image = await drawLevelImage({
-  // backgroundSource: |
-  //  "<image url>",   | Optional
-    avatarSource: 
-      message.author.avatarURL(), // string
-  
-    username: 
-      message.author.tag, // string
-
-    xpMax: 
-      db.get(`xpMax.${message.author.id}`), // number
-
-    xpCurrent: 
-      db.get(`xpCurrent.${message.author.id}`), // number
-
-    currentLevel: 
-      db.get(`currentLevel.${message.author.id}`), // number
-  });
-
-  message.channel.send(new MessageAttachment(image, "igl.png"));
-})();
-```
 
 Created by SaidKholidi
